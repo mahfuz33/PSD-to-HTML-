@@ -1,0 +1,321 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+        /* Customs Welcome section  */
+
+.wlcome{
+    background-color: #87509C;
+    padding-bottom: 90px;
+}
+.nav-heading{
+    display: flex;
+    justify-content: space-between;
+    padding: 90px;
+}
+.picture img{
+    margin-left: 90px;
+}
+.navber{
+    display: flex; 
+    margin-right: 90px;
+}
+.nab ul li{
+    list-style: none;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 15px;
+    font-size: 16px;
+    color: #e7dbdb;
+}
+.nab ul li:hover{
+    color: #fff;
+    background-color: #643A79;
+    border-radius: 7px;
+}
+.lorem{
+    text-align: center;
+    font-size: 38px;
+    color: #F7F3EA;
+    padding: 40px;
+}
+.nav-button{
+    text-align: center;
+}
+.nav-button button{
+    color: #fff;
+    font-size: 18px;
+    background-color:#EB7D4B ;
+    border: none;
+    border-radius: 5px;
+    padding: 18px 38px;
+}
+.nav-button button:hover{
+    background-color:#da6935 ;
+}
+
+        /* Design service section  */
+.service{
+    background-color: #17C2A4;
+}
+.service-head{
+    
+}
+.service-head h1{
+    color: #fff;
+    margin-top: ;
+    padding-top: 90px;
+    text-align: center;
+}
+.service-head p{
+    color: rgb(241, 233, 233);
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}
+.logo-class{
+    display: flex;
+    justify-content: space-between;
+    /* margin: 20px; */
+    text-align: center;
+    padding: 40px;
+    padding-bottom: 90px;
+}
+.logo-class img{
+    width: 35%;
+    margin: 30px;
+}
+.logo-class h2{
+    padding: 20px;
+    color: #fff;
+}
+.logo-class p{
+    color: rgb(241, 233, 233);
+    font-size: 20px;
+}
+.development h2{
+    color: #fff;
+    padding-top: 63px;
+}
+.development p{
+    color: rgb(241, 233, 233);
+    font-size: 20px;
+}
+
+        /* Design Team section  */
+.teem{
+    padding: 90px;
+    background-color: #E7F1F8;
+    text-align: center;
+}
+.teem h1:first-child{
+    font-size: 40px;
+    padding: 20px;
+    color: #3C4761;
+}
+.teem>p{
+    font-size: 20px;
+    padding: 28px;
+    color: #535E75;
+}
+.teem-logo{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+.teem-logo img{
+    width: 50%;
+    margin: 40px;
+}
+.teem-logo h1{
+    color: #3C4761; 
+}
+.teem-logo p{
+    color: #535E75;
+    padding: 10px;
+}
+p.pertion{
+    color: #48C1E9;
+}
+.p4{
+    margin-top: 10px;
+}
+.fab-icon{
+    color: #fff;
+}
+.fab-icon i{
+    background-color: #BDD1DF;
+    border-radius: 50%;
+    font-size: 15px;
+    padding: 8px;
+    margin: 15px 3px;
+}
+
+        /* Design skills section  */
+.skills{
+    background-color: #fff;
+    text-align: center;
+}
+.skills>h1{
+    color: #3C4761;
+    margin-top: 90px;
+}
+.sp{
+    color:#535E75;
+    margin: 20px;
+    padding: 30px;
+    font-size: 20px;
+}
+.skills-logo img{
+    margin: 52px;
+    width: 150px;
+    margin-bottom: 90px;
+}
+
+        /* Design Protfolio section  */
+.portfolio{
+    background-color: #FFDD99;
+    padding-top: 90px;
+    text-align: center;
+}
+.portfolio>h1{
+    color: #393939;
+}
+.portfolio>p{
+    color: #393939;
+    font-size: 20px;
+    margin: 30px;
+}
+.pnav ul{
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
+}
+.pnav ul li{
+    list-style-type: none;
+    padding: 10px 20px;
+    color: #393939;
+    background-color: #EBC985;
+    margin: 5px;
+    border-radius: 5px;
+}
+.pnav ul li:hover{
+    background-color: #fff;
+}
+.big-pic{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 50px;
+}
+.big-pic p{
+    font-size: 20px;
+    color: #393939;
+    margin: 25px;
+}
+.picb button{
+    border: none;
+    color: #fff;
+    background-color:#17C2A4;
+    border-radius: 5px;
+    padding: 10px 25px;
+    margin-bottom: 90px;
+}
+.picb button:hover{
+    background-color:#108a73;
+}
+.testiminial{
+    background-color: #D74680;
+    padding: 90px;
+   
+}
+.testiminial>h1{
+    text-align: center;
+    color: #fff;
+    padding-bottom: 20px;
+}
+.testiminial>p{
+    text-align: center;
+    font-size: 20px;
+    color: #EFB5CC;
+    margin-bottom: 25px;
+}
+.section-one{
+    display: flex;
+}
+.tlogo{
+    display: flex;
+}
+.tplogo img {
+    width: 130px;
+    margin: 40px;
+}
+.tlogo p{
+    font-size: 20px;
+    color: #EFB5CC;
+    margin-top: 40px;
+}
+.tlogo h2{
+    color: #fff;
+    margin-top: 18px;
+}
+.tlogo h3{
+    color: #FFDD99;
+    font-size: 15px;
+}
+
+.touch{
+    background-color: #3C5499;
+    padding: 90px;
+    text-align: center;
+}
+.touch h1{
+    color: #fff;
+}
+.touch p{
+    color: rgb(241, 233, 233);
+    font-size: 18px;
+    margin: 30px;
+}
+.touch form input[type="text"]{
+background-color: #273A71;
+ color: rgb(241, 233, 233);
+ padding: 20px;
+ border: none;
+ border-radius: 7px;
+ margin: 3px;
+ left: 0;
+ top: 0;
+}
+.fbutton button{
+    font-size: 18px;
+    color: #fff;
+    background-color: #30BAE7;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 25px;
+    margin-top: 30px;
+}
+.fbutton button:hover{
+    background-color:#1d9fca ;
+}
+.footer{
+    background-color: #344B8E;
+    padding: 15px;
+   
+}
+.footer ul{
+     display: flex;
+     justify-content: center;
+}
+.footer ul li{
+    list-style: none;
+    padding: 20px;
+    font-size: 20px;
+    color: #fff;
+}
+.footer ul li:hover{
+    color: #30BAE7;
+}
